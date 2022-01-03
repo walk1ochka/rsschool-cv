@@ -1,1 +1,1 @@
-<https://walk1ochka.github.io/rsschool-cv/cv>
+<https://walk1ochka.github.io/rsschool-cv/>
