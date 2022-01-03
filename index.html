@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav_menu">
+                <a href="#About">About me</a>
+            </div>
+            <div class="nav_menu">
+                <a href="#Skills">Skills</a>
+            </div>
+            <div class="nav_menu">
+                <a href="#Strengths">Strengths</a>
+            </div>
+            <div class="nav_menu">
+                <a href="#Code">Code</a>
+            </div>
+            <div class="nav_menu">
+                <a href="#Projects">Projects</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="left">
+            <img src="/pictures/hGRInuCesxA.jpg" alt="my photo">
+            <h2>Contacts:</h2>
+            <address>
+                <ul>
+                    <li>Tel:<br>+7(968)636-43-81</li>
+                    <li>Discord:<br> @walk1ochka</li>
+                    <li>E-mail: <br> <a class="mail_link" href="mailto:valera.krosava@gmail.com">valera.krosava@gmail.com</a></li>
+                    <li>Address:<br> Russia, Moscow</li>
+                </ul>
+            </address>
+            <div class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Moscow Aviation Institute <br> Сomputer science and engineering<br> 2020-2024</li>
+                    <li>RS-School FE/JS <br> Scinse 2021</li>
+                    <li>English level &mdash; B2</li>
+                </ul>
+            </div>
+        </section>
+        <section class="right">
+            <h1>Valeriy <br> Vinogradov</h1>
+            <h2>Future Front-End Developer</h2>
+            <a id="About"></a>
+            <div class="content_container">
+                <div class="content_index">
+                    <h2>About me</h2>
+                    <p> Scince I was a child I like to do anything with mechanisms and computers. I like to pragramming,
+                        build,
+                        configure and play computer. At last school classes I understood, that I want a job, where I
+                        could create something just with my laptop from any part of the World. <br>So because of this I
+                        decided to became a FE-Developer. I've always wanted to be the best at what I undertake, so
+                        I always try to study everything thoroughly. And if I know, what should I learn, I'll do it in
+                        any case. <br>
+                        Outside of programming I like to travel around the World, listen and play heavy music and drive
+                        and fix retro soviet and foreign cars.
+                    </p>
+                </div>
+                <a id="Skills"></a>
+                <div class="content_index">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Programming on C languages</li>
+                        <li>HTML/CSS</li>
+                        <li>SQL requests (Oracle SQL)</li>
+                        <li>Microcontrollers programming</li>
+                        <li>Engineering</li>
+                    </ul>
+                </div>
+                <a id="Strengths"></a>
+                <div class="content_index">
+                    <h2>Strengths</h2>
+                    <ul>
+                        <li>Responsible</li>
+                        <li>Quick to learn</li>
+                        <li>Good sense of humor (I hope so)</li>
+                        <li>Communicative</li>
+                        <li>Creative</li>
+                        <li>Honest</li>
+                    </ul>
+                </div>
+                <a id="Code"></a>
+                <div class="content_index">
+                    <h2>Code</h2>
+                    <pre class="hljs"><span class="hljs-keyword" >var</span> countBits = <span class="hljs-function">function</span>(<span class="hljs-params">n</span>){
+                        <span class="hljs-keyword">var</span> txt = n.toString(<span class="hljs-number">2</span>);
+                        n=<span class="hljs-number">0</span>;
+                        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; txt.length; i++) {
+                            <span class="hljs-keyword">if</span> (txt[i] ==<span class="hljs-string">'1'</span>)
+                            n++;
+                            }
+                        <span class="hljs-keyword">return</span>(<span class="hljs-params">n</span>);
+                        };</pre>
+                </div>
+                <a id="Projects"></a>
+                <div class="content_index">
+                    <h2>Projects</h2>
+                    <div class="projects_container">
+                        <a class="img_link" href="http://mentes7.mati.su" target="_blank">
+                            <div class="card_projects">
+                                <img src="pictures/proj1.png" alt="myproject">
+                                <p>
+                                    Автолюбитель (Проект для ВУЗ'а)
+                                </p>
+                            </div>
+                        </a>
+                        <a class="img_link">
+                            <div class="card_projects">
+                                <img src="pictures/projSoon.png" alt="comming soon">
+                                <p>
+                                    ...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="content_footer">
+            <a href="https://rs.school/js/" target="_blank"><img src="pictures/rs_school_js.svg" alt="rs-school logo"></a>
+        </div>
+        <div class="content_footer">
+            <p>&copy;2022</p>
+        </div>
+        <div class="content_footer">
+            <a href="https://github.com/walk1ochka" target="_blank"><img src="pictures/GHlogo.png" alt="gitHub logo"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
